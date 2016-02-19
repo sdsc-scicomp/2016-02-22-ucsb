@@ -14,10 +14,12 @@
 module load python scipy
 
 ### Environment setup for Hadoop and Spark
+sleep 10
 module load spark/1.5.2
 export PATH=/opt/hadoop/2.6.0/sbin:$PATH
 export HADOOP_CONF_DIR=$HOME/mycluster.conf
 export WORKDIR=`pwd`
+export SPARK_HOME=/opt/spark/1.5.2/
 
 myhadoop-configure.sh
 

@@ -1,1 +1,4 @@
-# 2016-02-22-ucsb
+Big Data Methods workshop at UCSB
+--------------------------------
+
+<http://csc.cnsi.ucsb.edu/news/589>

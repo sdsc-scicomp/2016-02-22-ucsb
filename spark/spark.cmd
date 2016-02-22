@@ -10,6 +10,7 @@
 #SBATCH --ntasks-per-node=24
 #SBATCH --export=ALL
 #SBATCH -t 04:00:00
+#SBATCH --reservation=UCSB2016
 
 module load python scipy
 
